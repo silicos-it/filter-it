@@ -1,0 +1,48 @@
+#*************************************************************************************#
+#                                                                                     #
+# Filter-it definitions derived from the CMC set of molecules                         #
+#                                                                                     #
+#*************************************************************************************#
+
+ONLY_ELEMENTS                H C O N F Cl Br I S P
+
+ATOMS                                   1       59
+CARBONS                                 1       40
+HETERO_ATOMS                            1       19
+HETERO_CARBON_RATIO                   0.0      1.1
+HALIDES                                 0        4
+HALIDE_FRACTION                       0.0      0.2
+ROTATABLE_BONDS                         0       20
+RIGID_BONDS                             0       46
+FLEXIBILITY                           0.0       0.7
+CHIRAL_CENTERS                          0       10
+HBOND_ACCEPTORS                         0       13
+HBOND_DONORS                            0        9
+LIPINSKI_ACCEPTORS                      0       15
+LIPINSKI_DONORS                         0        9
+FORMAL_CHARGES                          0        4
+TOTAL_FORMAL_CHARGE                    -3        3
+RINGSYSTEMS                             0        4
+ATOMS_IN_SMALLEST_RING                  3        7	
+ATOMS_IN_SMALLEST_RINGSYSTEM            3       20
+ATOMS_IN_LARGEST_RINGSYSTEM             3       20
+RING_FRACTION                         0.2      1.0        
+SIDECHAINS                              0       10
+ATOMS_IN_SMALLEST_SIDECHAIN             1        9
+ATOMS_IN_LARGEST_SIDECHAIN              1       16
+SIDECHAIN_FRACTION                    0.0      0.8
+CORES                                   0        1
+ATOMS_IN_CORE                           3       35
+CORE_FRACTION                         0.2      1.0
+BRIDGES                                 0        2
+ATOMS_IN_SMALLEST_BRIDGE                1        7
+ATOMS_IN_LARGEST_BRIDGE                 1        7
+BRIDGE_FRACTION                      0.00     0.25
+MOLWT                                   0      750
+LOGP                                  -11       14
+LOGS                                  -11        3
+TPSA                                    0      240
+LIPINSKI_VIOLATIONS                     0        3
+ANDREWS_ENERGY                        -22       42
+LIGAND_EFFICIENCY                     0.0      0.8
+ABSORPTION                              0        1

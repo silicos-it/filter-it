@@ -1,0 +1,3 @@
+PATTERN acid C(=O)O
+PATTERN amino [NH3+]
+DISTANCE acid amino * *
